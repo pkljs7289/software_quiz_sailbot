@@ -40,7 +40,7 @@ def is_angle_between(first_angle, middle_angle, second_angle):
          and (bound_to_second >= 0)
         or (bound_to_mid <= 0)
          and (bound_to_second <= 0))
-        and (abs(bound_to_second) >= abs(bound_to_mid))):
+            and (abs(bound_to_second) >= abs(bound_to_mid))):
         return True
 
     return False
